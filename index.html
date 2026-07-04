@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spoorty Bio Energy | Powering a Sustainable Tomorrow</title>
+  <meta name="description" content="Spoorty Bio Energy delivers world-class biogas engineering, Bio-CNG plants, waste-to-energy solutions, and sustainable infrastructure to power a cleaner future.">
+  
+  <!-- Google Fonts: Outfit (Luxury/Modern Headings) & Inter (Premium UI Body text) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Premium Custom Cursor -->
+  <div class="custom-cursor-dot" id="cursor-dot"></div>
+  <div class="custom-cursor-ring" id="cursor-ring"></div>
+
+  <!-- Background Blueprint Gridlines -->
+  <div class="bg-gridlines">
+    <div class="gridline"></div>
+    <div class="gridline"></div>
+    <div class="gridline"></div>
+    <div class="gridline"></div>
+    <div class="gridline"></div>
+  </div>
+
+  <!-- Background Noise & Aurora mesh gradients -->
+  <div class="bg-noise"></div>
+  <div class="bg-mesh">
+    <div class="mesh-blob mesh-1"></div>
+    <div class="mesh-blob mesh-2"></div>
+    <div class="mesh-blob mesh-3"></div>
+    <div class="mesh-blob mesh-4"></div>
+  </div>
+
+  <!-- Interactive Chemical Molecular Canvas -->
+  <canvas id="bio-canvas"></canvas>
+
+  <!-- Floating Glass Navbar -->
+  <header class="navbar-wrapper">
+    <div class="navbar container glass-panel">
+      <a href="#" class="logo-link magnetic" id="logo">
+        <div class="logo-icon-container">
+          <svg class="logo-svg" viewBox="0 0 24 24" fill="none">
+            <circle cx="12" cy="12" r="10" stroke="url(#nav-logo-grad)" stroke-width="2.5"/>
+            <path d="M12 6c-3.3 0-6 2.7-6 6a6 6 0 0 0 6 6c3.3 0 6-2.7 6-6a5.9 5.9 0 0 0-3.3-5.3" stroke="url(#nav-logo-grad2)" stroke-width="2" stroke-linecap="round"/>
+            <path d="M12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z" fill="#38B66B"/>
+            <defs>
+              <linearGradient id="nav-logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#293681" />
+                <stop offset="100%" stop-color="#4274D9" />
+              </linearGradient>
+              <linearGradient id="nav-logo-grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#95CCDD" />
+                <stop offset="100%" stop-color="#38B66B" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <span class="logo-text font-outfit">Spoorty <span class="logo-sub">Bio Energy</span></span>
+      </a>
+
+      <nav class="nav-links-menu" id="nav-menu">
+        <a href="#hero" class="nav-item active magnetic">Home</a>
+        <a href="#about" class="nav-item magnetic">About</a>
+        <a href="#projects" class="nav-item magnetic">Projects</a>
+        <a href="#contact" class="nav-item magnetic">Contact</a>
+      </nav>
+
+      <div class="nav-cta-wrapper">
+        <a href="#contact" class="nav-cta-btn glass-btn magnetic">
+          <span>Get Consultation</span>
+          <svg class="btn-arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+      </div>
+
+      <button class="menu-toggle-btn" id="mobile-toggle" aria-label="Toggle Navigation">
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress-container">
+    <div class="scroll-progress-bar" id="scroll-bar"></div>
+  </div>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-sec">
+      <div class="hero-bg-overlay" style="background-image: linear-gradient(180deg, rgba(248, 245, 239, 0.4) 0%, rgba(248, 245, 239, 0.8) 100%), url('/assets/biogas_plant_hero.jpg');"></div>
+      
+      <div class="container hero-grid">
+        <div class="hero-left-content">
+          <div class="badge-container anim-fade-up">
+            <span class="glass-badge shadow-sm">
+              <span class="badge-dot"></span>
+              Renewable Energy Solutions
+            </span>
+          </div>
+          
+          <h1 class="hero-title font-outfit anim-title-reveal">
+            Transforming Organic <br>
+            Waste Into <span class="gradient-text font-outfit">Clean Energy</span>
+          </h1>
+<!--           
+          <p class="hero-desc anim-fade-up delay-1">
+            Spoorty Bio Energy delivers innovative biogas engineering, Bio-CNG plants, waste-to-energy solutions, and renewable infrastructure that create a cleaner and greener future.
+          </p> -->
+
+          <!-- Rich Outcome Highlights to fill space -->
+          <div class="hero-outcomes-row anim-fade-up delay-1">
+            <div class="outcome-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Zero landfill waste</span>
+            </div>
+            <div class="outcome-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>98%+ Methane purity</span>
+            </div>
+            <div class="outcome-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>24/7 Grid base-load</span>
+            </div>
+          </div>
+          
+          <div class="hero-buttons anim-fade-up delay-2">
+            <a href="#solutions" class="btn btn-primary magnetic">
+              <span>Explore Solutions</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#contact" class="btn glass-btn magnetic">Book Consultation</a>
+          </div>
+        </div>
+
+        <!-- Right Side Floating Panel -->
+        <div class="hero-right-widget anim-scale-in delay-3">
+          <div class="glass-card panel-3d" id="hero-widget-card">
+            <div class="widget-radial-glow"></div>
+            <div class="widget-header">
+              <div class="title-wrap">
+                <span class="status-pulse-dot"></span>
+                <span class="widget-hdr-title font-outfit">Live Operations</span>
+              </div>
+              <span class="badge-info font-outfit">SYSTEM LIVE</span>
+            </div>
+            
+            <div class="widget-stats-grid">
+              <div class="widget-stat-box">
+                <span class="box-label">Bio-CNG Yield</span>
+                <span class="box-num count-up" data-target="15800">0</span>
+                <span class="box-unit">Nm³/Day</span>
+              </div>
+              <div class="widget-stat-box">
+                <span class="box-label">Reactor Temp</span>
+                <span class="box-num count-up" data-target="55.2" data-decimals="1">0</span>
+                <span class="box-unit">Thermophilic °C</span>
+              </div>
+            </div>
+
+            <!-- Simulated Operations Graph -->
+            <div class="operations-graph-wrapper">
+              <span class="graph-label">Real-Time Grid Stabilization</span>
+              <div class="graph-canvas-sim">
+                <svg class="graph-svg" viewBox="0 0 300 80">
+                  <path class="graph-line-bg" d="M 0 60 Q 30 50 60 55 T 120 40 T 180 48 T 240 25 T 300 35 L 300 80 L 0 80 Z" fill="url(#graph-grad-bg)"/>
+                  <path class="graph-line" d="M 0 60 Q 30 50 60 55 T 120 40 T 180 48 T 240 25 T 300 35" fill="none" stroke="url(#graph-grad)" stroke-width="3" stroke-linecap="round"/>
+                  <defs>
+                    <linearGradient id="graph-grad" x1="0" y1="0" x2="1" y2="0">
+                      <stop offset="0%" stop-color="#4274D9" />
+                      <stop offset="50%" stop-color="#95CCDD" />
+                      <stop offset="100%" stop-color="#38B66B" />
+                    </linearGradient>
+                    <linearGradient id="graph-grad-bg" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="rgba(56, 182, 107, 0.25)" />
+                      <stop offset="100%" stop-color="rgba(248, 245, 239, 0)" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+                <div class="animated-graph-node"></div>
+              </div>
+            </div>
+
+            <!-- Floating badges -->
+            <div class="floating-badge badge-top-right glass-panel hover-tilt">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#38B66B" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <span>100% Safe EPC</span>
+            </div>
+            <div class="floating-badge badge-bottom-left glass-panel hover-tilt">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#4274D9" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              <span>99.9% Uptime</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS SECTION (VERTICAL TIMELINE) -->
+    <section id="process" class="process-sec">
+      <!-- Premium background decorations -->
+      <div class="process-grid-bg"></div>
+      <div class="process-glow-circle glow-1"></div>
+      <div class="process-glow-circle glow-2"></div>
+
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle font-outfit">Our Workflow</span>
+          <h2 class="section-title font-outfit">Engineering Lifecycle Process</h2>
+          <p class="section-desc">We follow a methodical, end-to-end framework to deliver high-performance energy infrastructure.</p>
+        </div>
+
+        <div class="vertical-timeline-container">
+          <!-- Center line tracks -->
+          <div class="v-timeline-track"></div>
+          <div class="v-timeline-progress"></div>
+          <div class="v-timeline-particle"></div>
+          
+          <div class="v-timeline-steps">
+            <!-- Step 1 -->
+            <div class="v-timeline-step" data-step="1">
+              <div class="v-step-node">
+                <span class="v-node-number font-outfit">1</span>
+                <span class="v-node-pulse"></span>
+              </div>
+              <div class="v-step-card-wrapper">
+                <div class="v-step-card panel-3d">
+                  <div class="v-step-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                  </div>
+                  <h3 class="v-step-title font-outfit">Discovery</h3>
+                  <p class="v-step-desc">Site surveys, organic feedstock testing, TS/VS analysis, and project feasibility.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="v-timeline-step" data-step="2">
+              <div class="v-step-node">
+                <span class="v-node-number font-outfit">2</span>
+                <span class="v-node-pulse"></span>
+              </div>
+              <div class="v-step-card-wrapper">
+                <div class="v-step-card panel-3d">
+                  <div class="v-step-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  </div>
+                  <h3 class="v-step-title font-outfit">Planning</h3>
+                  <p class="v-step-desc">System design, environment clearances, offset modeling, and regulatory permits.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="v-timeline-step" data-step="3">
+              <div class="v-step-node">
+                <span class="v-node-number font-outfit">3</span>
+                <span class="v-node-pulse"></span>
+              </div>
+              <div class="v-step-card-wrapper">
+                <div class="v-step-card panel-3d">
+                  <div class="v-step-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+                  </div>
+                  <h3 class="v-step-title font-outfit">Engineering</h3>
+                  <p class="v-step-desc">3D CAD design, digester structural calculations, and SCADA control automation.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="v-timeline-step" data-step="4">
+              <div class="v-step-node">
+                <span class="v-node-number font-outfit">4</span>
+                <span class="v-node-pulse"></span>
+              </div>
+              <div class="v-step-card-wrapper">
+                <div class="v-step-card panel-3d">
+                  <div class="v-step-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                  </div>
+                  <h3 class="v-step-title font-outfit">Construction</h3>
+                  <p class="v-step-desc">Civil engineering, concrete digester shell molding, and reactor lining setups.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="v-timeline-step" data-step="5">
+              <div class="v-step-node">
+                <span class="v-node-number font-outfit">5</span>
+                <span class="v-node-pulse"></span>
+              </div>
+              <div class="v-step-card-wrapper">
+                <div class="v-step-card panel-3d">
+                  <div class="v-step-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                  </div>
+                  <h3 class="v-step-title font-outfit">Commissioning</h3>
+                  <p class="v-step-desc">Seeding bacteria consortia, trial gas yields, pressure tests, and safety certification.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Step 6 -->
+            <div class="v-timeline-step" data-step="6">
+              <div class="v-step-node">
+                <span class="v-node-number font-outfit">6</span>
+                <span class="v-node-pulse"></span>
+              </div>
+              <div class="v-step-card-wrapper">
+                <div class="v-step-card panel-3d">
+                  <div class="v-step-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+                  </div>
+                  <h3 class="v-step-title font-outfit">Optimization</h3>
+                  <p class="v-step-desc">Adjusting retention times, balancing chemical ratios, and maximizing CH4 rates.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Step 7 -->
+            <div class="v-timeline-step" data-step="7">
+              <div class="v-step-node">
+                <span class="v-node-number font-outfit">7</span>
+                <span class="v-node-pulse"></span>
+              </div>
+              <div class="v-step-card-wrapper">
+                <div class="v-step-card panel-3d">
+                  <div class="v-step-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                  </div>
+                  <h3 class="v-step-title font-outfit">Maintenance</h3>
+                  <p class="v-step-desc">Remote IoT diagnostics, biweekly biological audits, and compressor overhauls.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-sec scroll-reveal-group">
+      <div class="container about-grid-layout">
+        <div class="about-left-visual anim-scale-in">
+          <div class="glass-card about-image-card panel-3d">
+            <div class="image-zoom-container">
+              <img src="/assets/engineering_about.jpg" alt="Spoorty Bio Energy Plant Engineering" class="about-img hover-zoom">
+            </div>
+            <div class="video-play-btn-overlay magnetic">
+              <div class="play-btn-inner">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+              </div>
+            </div>
+            <!-- Floating badge -->
+            <div class="experience-badge glass-panel hover-tilt">
+              <span class="badge-num font-outfit">15+</span>
+              <span class="badge-lbl">Years Experience</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-right-text">
+          <span class="section-subtitle font-outfit">Who We Are</span>
+          <h2 class="section-title font-outfit">Engineering the Future of Renewable Energy</h2>
+          
+          <p class="section-paragraph">
+            Spoorty Bio Energy is a premier environmental engineering firm specializing in waste-to-energy infrastructure. We design, construct, and optimize advanced anaerobic digestion plants that process agricultural residues, municipal waste, and industrial organics.
+          </p>
+          <p class="section-paragraph">
+            Our technology purifies biogas into high-yield Bio-CNG matching natural gas standards, reducing CO₂ footprints, promoting a circular economy, and powering a cleaner industrial ecosystem.
+          </p>
+
+          <div class="about-bullets">
+            <div class="bullet-item">
+              <div class="bullet-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <span class="bullet-text font-outfit">Awwwards-Level Design & Engineering Excellence</span>
+            </div>
+            <div class="bullet-item">
+              <div class="bullet-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <span class="bullet-text font-outfit">Fully Automated Scada-Enabled Operations</span>
+            </div>
+            <div class="bullet-item">
+              <div class="bullet-check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <span class="bullet-text font-outfit">Patented biological purification pipeline</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES / SOLUTIONS SECTION -->
+    <section id="solutions" class="services-sec scroll-reveal-group">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle font-outfit">Expert Capabilities</span>
+          <h2 class="section-title font-outfit text-dark-navy">Our Specialized Solutions</h2>
+          <p class="section-desc">
+            We deliver state-of-the-art services covering the entire lifecycle of bio-energy installations.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1 -->
+          <div class="service-card glass-card hover-tilt">
+            <div class="card-glow"></div>
+            <div class="service-icon-container bg-navy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3 class="service-card-title font-outfit">Biogas Plant Engineering</h3>
+            <p class="service-card-desc">
+              Custom-designed anaerobic digestion systems scaled for large agro-industrial complexes and agricultural clusters.
+            </p>
+            <ul class="service-details-list">
+              <li>• Feasibility Analysis</li>
+              <li>• Digester CAD Modeling</li>
+              <li>• SCADA Integration</li>
+            </ul>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="service-card glass-card hover-tilt">
+            <div class="card-glow"></div>
+            <div class="service-icon-container bg-blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <h3 class="service-card-title font-outfit">Bio-CNG Solutions</h3>
+            <p class="service-card-desc">
+              Upgrading raw biogas using pressure swing adsorption (PSA) and advanced membranes into vehicle-grade clean gas.
+            </p>
+            <ul class="service-details-list">
+              <li>• Membrane Separation</li>
+              <li>• H2S & CO2 Scrubbing</li>
+              <li>• Pipeline Injection Ready</li>
+            </ul>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="service-card glass-card hover-tilt">
+            <div class="card-glow"></div>
+            <div class="service-icon-container bg-green">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+            </div>
+            <h3 class="service-card-title font-outfit">Waste Management</h3>
+            <p class="service-card-desc">
+              Direct processing of organic municipal solid waste and agricultural residues, diverting waste from polluting landfills.
+            </p>
+            <ul class="service-details-list">
+              <li>• Agro-residue Sorting</li>
+              <li>• MSW Organic Recovery</li>
+              <li>• Controlled Dilution Loops</li>
+            </ul>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="service-card glass-card hover-tilt">
+            <div class="card-glow"></div>
+            <div class="service-icon-container bg-sky">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3 class="service-card-title font-outfit">Plant Automation</h3>
+            <p class="service-card-desc">
+              Next-generation SCADA control panels and industrial IoT platforms that monitor gas metrics and safety systems.
+            </p>
+            <ul class="service-details-list">
+              <li>• Real-Time Gas Analysis</li>
+              <li>• Safety Relief Interlocks</li>
+              <li>• Cloud-Based Diagnostics</li>
+            </ul>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="service-card glass-card hover-tilt">
+            <div class="card-glow"></div>
+            <div class="service-icon-container bg-navy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <h3 class="service-card-title font-outfit">Operation & Maintenance</h3>
+            <p class="service-card-desc">
+              Scheduled biological monitoring, mechanical maintenance, and process optimization to guarantee stable energy yields.
+            </p>
+            <ul class="service-details-list">
+              <li>• Digestate Agitation Maintenance</li>
+              <li>• Biological Culture Audits</li>
+              <li>• Preventative Overhauls</li>
+            </ul>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="service-card glass-card hover-tilt">
+            <div class="card-glow"></div>
+            <div class="service-icon-container bg-blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <h3 class="service-card-title font-outfit">Environmental Consulting</h3>
+            <p class="service-card-desc">
+              Carbon credits management, Feasibility studies, regulatory compliance reports, and sustainability audits.
+            </p>
+            <ul class="service-details-list">
+              <li>• Carbon Offset Auditing</li>
+              <li>• Policy Compliance Checklists</li>
+              <li>• EPA/Governmental Filings</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATISTICS SECTION -->
+    <section class="stats-sec glass-panel py-8">
+      <div class="container stats-flex-grid">
+        <div class="stat-box text-center">
+          <div class="stat-number font-outfit count-up" data-target="100">0</div>
+          <div class="stat-plus font-outfit">+</div>
+          <p class="stat-label font-outfit">Projects Completed</p>
+        </div>
+        <div class="stat-box text-center">
+          <div class="stat-number font-outfit count-up" data-target="500">0</div>
+          <div class="stat-plus font-outfit">K+</div>
+          <p class="stat-label font-outfit">Tons Waste Processed</p>
+        </div>
+        <div class="stat-box text-center">
+          <div class="stat-number font-outfit count-up" data-target="98">0</div>
+          <div class="stat-plus font-outfit">%</div>
+          <p class="stat-label font-outfit">Client Satisfaction</p>
+        </div>
+        <div class="stat-box text-center">
+          <div class="stat-number font-outfit">24/7</div>
+          <p class="stat-label font-outfit">Operational Support</p>
+        </div>
+        <div class="stat-box text-center">
+          <div class="stat-number font-outfit count-up" data-target="30">0</div>
+          <div class="stat-plus font-outfit">+</div>
+          <p class="stat-label font-outfit">Engineering Experts</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURE STRIP -->
+    <section class="feature-strip-sec py-4">
+      <div class="container">
+        <div class="feature-strip-grid">
+          <div class="feature-strip-card glass-card hover-tilt">
+            <div class="card-edge-glow"></div>
+            <div class="icon-wrap color-navy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <div class="card-info">
+              <h3 class="font-outfit">Sustainable Engineering</h3>
+              <p>Biological plant designs maximizing biogas conversion rates.</p>
+            </div>
+          </div>
+          <div class="feature-strip-card glass-card hover-tilt">
+            <div class="card-edge-glow"></div>
+            <div class="icon-wrap color-blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <div class="card-info">
+              <h3 class="font-outfit">Bio-CNG Technology</h3>
+              <p>Advanced PSA membranes yielding &ge; 98.7% methane purity.</p>
+            </div>
+          </div>
+          <div class="feature-strip-card glass-card hover-tilt">
+            <div class="card-edge-glow"></div>
+            <div class="icon-wrap color-green">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            </div>
+            <div class="card-info">
+              <h3 class="font-outfit">End-to-End EPC</h3>
+              <p>Full lifecycle turnkey engineering from blueprint to startup.</p>
+            </div>
+          </div>
+          <div class="feature-strip-card glass-card hover-tilt">
+            <div class="card-edge-glow"></div>
+            <div class="icon-wrap color-sky">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div class="card-info">
+              <h3 class="font-outfit">Expert Team</h3>
+              <p>Over 15 years of biological engineering experience.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SHOWCASE SECTION (Richer 4-card grid with Flip Animation) -->
+    <section id="projects" class="projects-sec scroll-reveal-group">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle font-outfit">Case Studies</span>
+          <h2 class="section-title font-outfit">Premium Enterprise Projects</h2>
+          <p class="section-desc">Explore our flagship industrial scale biogas and Bio-CNG installations.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card-flip">
+            <div class="project-card-inner">
+              <!-- Front Face -->
+              <div class="project-card-front">
+                <img src="/assets/waste_to_energy_project.jpg" alt="Bio-CNG Infrastructure" class="project-card-img">
+                <div class="project-front-overlay">
+                  <span class="proj-badge font-outfit">Bio-CNG Plant</span>
+                  <h3 class="proj-front-title font-outfit">Silicon Valley Municipal Grid</h3>
+                </div>
+              </div>
+              <!-- Back Face -->
+              <div class="project-card-back">
+                <div class="proj-meta">
+                  <span class="proj-badge font-outfit">Bio-CNG Plant</span>
+                  <span class="proj-date font-outfit">2025</span>
+                </div>
+                <h3 class="proj-title font-outfit">Silicon Valley Municipal Grid</h3>
+                <p class="proj-desc">Converting 200 tons/day of urban organic residue into high-purity vehicle gas.</p>
+                <a href="#contact" class="proj-link font-outfit magnetic">
+                  <span>View Details</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card-flip">
+            <div class="project-card-inner">
+              <!-- Front Face -->
+              <div class="project-card-front">
+                <img src="/assets/biogas_plant_hero.jpg" alt="Biogas plant engineering project" class="project-card-img">
+                <div class="project-front-overlay">
+                  <span class="proj-badge font-outfit">Co-Generation (CHP)</span>
+                  <h3 class="proj-front-title font-outfit">Agro-Industrial Energy Hub</h3>
+                </div>
+              </div>
+              <!-- Back Face -->
+              <div class="project-card-back">
+                <div class="proj-meta">
+                  <span class="proj-badge font-outfit">Co-Generation (CHP)</span>
+                  <span class="proj-date font-outfit">2026</span>
+                </div>
+                <h3 class="proj-title font-outfit">Agro-Industrial Energy Hub</h3>
+                <p class="proj-desc">A megawatt-scale power digester system utilizing crop waste for localized electricity.</p>
+                <a href="#contact" class="proj-link font-outfit magnetic">
+                  <span>View Details</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card-flip">
+            <div class="project-card-inner">
+              <!-- Front Face -->
+              <div class="project-card-front">
+                <img src="/assets/organic_digestate_sustainability.jpg" alt="Sugar Mill Bio-CNG purification" class="project-card-img">
+                <div class="project-front-overlay">
+                  <span class="proj-badge font-outfit">Industrial Bio-CNG</span>
+                  <h3 class="proj-front-title font-outfit">Sugar Mill Energy Pipeline</h3>
+                </div>
+              </div>
+              <!-- Back Face -->
+              <div class="project-card-back">
+                <div class="proj-meta">
+                  <span class="proj-badge font-outfit">Industrial Bio-CNG</span>
+                  <span class="proj-date font-outfit">2025</span>
+                </div>
+                <h3 class="proj-title font-outfit">Sugar Mill Energy Pipeline</h3>
+                <p class="proj-desc">Processing press-mud and bagasse byproduct into 12,000 Nm³ of vehicle-grade Bio-CNG daily.</p>
+                <a href="#contact" class="proj-link font-outfit magnetic">
+                  <span>View Details</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card-flip">
+            <div class="project-card-inner">
+              <!-- Front Face -->
+              <div class="project-card-front">
+                <img src="/assets/engineering_about.jpg" alt="Liquid Dairy Waste Digester" class="project-card-img">
+                <div class="project-front-overlay">
+                  <span class="proj-badge font-outfit">Dairy Waste-to-Energy</span>
+                  <h3 class="proj-front-title font-outfit">Texas Cattle Manure Digesters</h3>
+                </div>
+              </div>
+              <!-- Back Face -->
+              <div class="project-card-back">
+                <div class="proj-meta">
+                  <span class="proj-badge font-outfit">Dairy Waste-to-Energy</span>
+                  <span class="proj-date font-outfit">2026</span>
+                </div>
+                <h3 class="proj-title font-outfit">Texas Cattle Manure Digesters</h3>
+                <p class="proj-desc">Harnessing livestock waste to supply direct carbon-negative methane to national grid lines.</p>
+                <a href="#contact" class="proj-link font-outfit magnetic">
+                  <span>View Details</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INDUSTRIES SECTION (Stacked Card Shuffle) -->
+    <section id="industries" class="industries-sec scroll-reveal-group">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle font-outfit">Target Segments</span>
+          <h2 class="section-title font-outfit">Industries We Empower</h2>
+          <p class="section-desc">Tailoring organic waste treatment systems for various commercial and governmental applications.</p>
+        </div>
+
+        <div class="industries-shuffle-wrapper">
+          <div class="shuffle-deck">
+            <!-- Card 1 -->
+            <div class="shuffle-card glass-card" data-index="0">
+              <div class="icon-wrap bg-green">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              </div>
+              <h3 class="font-outfit">Agriculture</h3>
+              <p>Processing manure, crop straw, and residue into clean local power and bio-fertilizer digestate.</p>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="shuffle-card glass-card" data-index="1">
+              <div class="icon-wrap bg-blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              </div>
+              <h3 class="font-outfit">Food Processing</h3>
+              <p>Diverting packaging waste, organic sludges, and food residues to energy digesters instead of landfills.</p>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="shuffle-card glass-card" data-index="2">
+              <div class="icon-wrap bg-navy">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.25z"/></svg>
+              </div>
+              <h3 class="font-outfit">Dairy</h3>
+              <p>Leveraging liquid dairy manure to generate off-grid grid-stabilizing green electricity and pure gas.</p>
+            </div>
+            
+            <!-- Card 4 -->
+            <div class="shuffle-card glass-card" data-index="3">
+              <div class="icon-wrap bg-sky">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+              </div>
+              <h3 class="font-outfit">Sugar Industries</h3>
+              <p>Utilizing sugarcane bagasse and industrial press-mud streams for high-calorie methane conversion.</p>
+            </div>
+            
+            <!-- Card 5 -->
+            <div class="shuffle-card glass-card" data-index="4">
+              <div class="icon-wrap bg-green">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="3" x2="9" y2="21"/></svg>
+              </div>
+              <h3 class="font-outfit">Municipal Waste</h3>
+              <p>Transforming municipal organic sorting streams into bio-methane vehicle fuels for public fleets.</p>
+            </div>
+            
+            <!-- Card 6 -->
+            <div class="shuffle-card glass-card" data-index="5">
+              <div class="icon-wrap bg-blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5"/></svg>
+              </div>
+              <h3 class="font-outfit">Industrial Manufacturing</h3>
+              <p>Providing direct green power purchase agreements (PPAs) to heavily reduce industrial carbon taxes.</p>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <div class="shuffle-controls">
+            <button class="shuffle-btn btn-prev" aria-label="Previous Segment">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+            </button>
+            <div class="shuffle-indicators">
+              <span class="indicator active" data-index="0"></span>
+              <span class="indicator" data-index="1"></span>
+              <span class="indicator" data-index="2"></span>
+              <span class="indicator" data-index="3"></span>
+              <span class="indicator" data-index="4"></span>
+              <span class="indicator" data-index="5"></span>
+            </div>
+            <button class="shuffle-btn btn-next" aria-label="Next Segment">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUSTAINABILITY SECTION -->
+    <section id="sustainability" class="sustainability-sec scroll-reveal-group">
+      <div class="container sustainability-grid-layout">
+        <div class="sustain-left-text">
+          <span class="section-subtitle font-outfit">Green Commitment</span>
+          <h2 class="section-title font-outfit">Eco-Circular Systems for Global Impact</h2>
+          <p class="section-desc-light">
+            We are dedicated to building a zero-emission future. By engineering loops that capture carbon and recycle agricultural nutrients, we create long-term environmental value.
+          </p>
+
+          <div class="sustain-pillars">
+            <div class="sustain-pillar-item glass-card hover-tilt">
+              <h4 class="font-outfit"><span class="pillar-dot bg-green"></span>Circular Economy</h4>
+              <p>Closing the agricultural and industrial nutrient cycle by returning bio-stabilized organic digestate as nutrient-rich crop fertilizer.</p>
+            </div>
+            <div class="sustain-pillar-item glass-card hover-tilt">
+              <h4 class="font-outfit"><span class="pillar-dot bg-blue"></span>Carbon Reduction</h4>
+              <p>Eliminating methane emissions from rotting farm piles, replacing fossil fuels with clean Bio-CNG, and delivering negative-carbon offsets.</p>
+            </div>
+            <div class="sustain-pillar-item glass-card hover-tilt">
+              <h4 class="font-outfit"><span class="pillar-dot bg-navy"></span>Renewable Base Load</h4>
+              <p>Generating bio-electricity 24/7/365, serving as a stable green anchor for power grids without relying on weather conditions.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sustain-right-visual anim-scale-in">
+          <div class="glass-card sustain-visual-panel panel-3d">
+            <!-- Animated SVG Circular HUD Overlay representing Circular Economy loops -->
+            <div class="hud-container">
+              <svg class="circular-hud-svg" viewBox="0 0 400 400">
+                <!-- Outer dashed orbital track -->
+                <circle class="hud-track" cx="200" cy="200" r="130" />
+                <circle class="hud-track-fill" cx="200" cy="200" r="130" />
+                
+                <!-- Flow particles traveling along the track -->
+                <circle class="hud-flow-particles" cx="200" cy="200" r="130" />
+                
+                <!-- Connective radial lines -->
+                <line x1="200" y1="200" x2="200" y2="70" class="hud-radial" />
+                <line x1="200" y1="200" x2="330" y2="200" class="hud-radial" />
+                <line x1="200" y1="200" x2="200" y2="330" class="hud-radial" />
+                <line x1="200" y1="200" x2="70" y2="200" class="hud-radial" />
+                
+                <!-- Center Core Node -->
+                <g class="hud-core">
+                  <circle cx="200" cy="200" r="32" class="hud-core-bg" />
+                  <!-- Center biological leaf icon -->
+                  <path d="M200 190c-6 6-10 12-10 16a10 10 0 0 0 20 0c0-4-4-10-10-16z" fill="var(--color-eco-green)" />
+                  <text x="200" y="222" text-anchor="middle" class="hud-core-text font-outfit">CORE</text>
+                </g>
+                
+                <!-- Node 1: Feedstock (Top) -->
+                <g class="hud-node node-feedstock" data-pillar="1">
+                  <circle cx="200" cy="70" r="22" class="hud-node-bg" />
+                  <svg x="189" y="59" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                  </svg>
+                  <text x="200" y="38" text-anchor="middle" class="hud-node-label font-outfit">Feedstock</text>
+                </g>
+                
+                <!-- Node 2: Bio-CNG (Right) -->
+                <g class="hud-node node-biogas" data-pillar="2">
+                  <circle cx="330" cy="200" r="22" class="hud-node-bg" />
+                  <svg x="319" y="189" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                  </svg>
+                  <text x="330" y="168" text-anchor="middle" class="hud-node-label font-outfit">Bio-CNG</text>
+                </g>
+                
+                <!-- Node 3: Digestate (Bottom) -->
+                <g class="hud-node node-digestate" data-pillar="1">
+                  <circle cx="200" cy="330" r="22" class="hud-node-bg" />
+                  <svg x="189" y="319" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20zM12 6v12M6 12h12"/>
+                  </svg>
+                  <text x="200" y="364" text-anchor="middle" class="hud-node-label font-outfit">Digestate</text>
+                </g>
+                
+                <!-- Node 4: CO₂ Offsets (Left) -->
+                <g class="hud-node node-offsets" data-pillar="3">
+                  <circle cx="70" cy="200" r="22" class="hud-node-bg" />
+                  <svg x="59" y="189" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                  </svg>
+                  <text x="70" y="168" text-anchor="middle" class="hud-node-label font-outfit">CO₂ Offsets</text>
+                </g>
+              </svg>
+            </div>
+
+            <div class="image-zoom-container">
+              <img src="/assets/organic_digestate_sustainability.jpg" alt="Sustainability organic crops" class="sustain-img hover-zoom">
+            </div>
+            <!-- Glassy impact highlights overlays -->
+            <div class="sustain-stat-card glass-panel hover-tilt">
+              <div class="stat-top-meta">
+                <span class="num font-outfit">98%</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="#38B66B" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+              </div>
+              <span class="lbl">Carbon Capture Index</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG PREVIEW SECTION (Expanded to 3 columns to fill space) -->
+    <section id="blog" class="blog-sec scroll-reveal-group">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle font-outfit">News & Insights</span>
+          <h2 class="section-title font-outfit">Spoorty Bio Energy Blog</h2>
+          <p class="section-desc">Stay updated with the latest breakthroughs in anaerobic digestion and Bio-CNG upgrading technologies.</p>
+        </div>
+
+        <div class="blog-grid-3">
+          <!-- Article 1 -->
+          <div class="reveal-card-wrapper">
+            <div class="card-reveal-overlay"></div>
+            <article class="blog-card glass-card hover-tilt">
+              <div class="blog-date font-outfit">June 28, 2026</div>
+              <h3 class="blog-card-title font-outfit"><a href="#contact">The Rise of Bio-CNG in Commercial Transport Fleet Decarbonization</a></h3>
+              <p class="blog-card-excerpt">Discover how regional heavy haulage fleets are completely replacing diesel fuels with vehicle-grade biological methane to meet grid carbon regulations.</p>
+              <a href="#contact" class="blog-read-more font-outfit magnetic">
+                <span>Read Article</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </article>
+          </div>
+
+          <!-- Article 2 -->
+          <div class="reveal-card-wrapper">
+            <div class="card-reveal-overlay"></div>
+            <article class="blog-card glass-card hover-tilt">
+              <div class="blog-date font-outfit">May 15, 2026</div>
+              <h3 class="blog-card-title font-outfit"><a href="#contact">Next-Gen Membrane Technology: Maximizing Methane Separation Efficiencies</a></h3>
+              <p class="blog-card-excerpt">An engineering deep dive into the poly-alloy molecular membrane filtration setups powering our modern anaerobic digestor purification pipeline.</p>
+              <a href="#contact" class="blog-read-more font-outfit magnetic">
+                <span>Read Article</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </article>
+          </div>
+
+          <!-- Article 3 -->
+          <div class="reveal-card-wrapper">
+            <div class="card-reveal-overlay"></div>
+            <article class="blog-card glass-card hover-tilt">
+              <div class="blog-date font-outfit">April 02, 2026</div>
+              <h3 class="blog-card-title font-outfit"><a href="#contact">Optimizing TS/VS Ratios in Large Anaerobic Bioreactors</a></h3>
+              <p class="blog-card-excerpt">Understanding total solids (TS) and volatile solids (VS) correlation to accelerate bacterial degradation cycles and boost daily gas output.</p>
+              <a href="#contact" class="blog-read-more font-outfit magnetic">
+                <span>Read Article</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-sec">
+      <div class="container">
+        <div class="cta-box glass-panel text-center hover-tilt anim-scale-in">
+          <div class="cta-glow-bg"></div>
+          <h2 class="cta-title font-outfit">Ready to Build Your Renewable Energy Project?</h2>
+          <p class="cta-subtitle">Let's transform organic waste into clean energy together.</p>
+          <div class="cta-actions">
+            <a href="#contact" class="btn btn-primary magnetic">
+              <span>Request Proposal</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#contact" class="btn glass-btn magnetic">Talk to Expert</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / INQUIRY SECTION -->
+    <section id="contact" class="contact-sec scroll-reveal-group">
+      <div class="container contact-grid-layout">
+        <div class="contact-left-info">
+          <span class="section-subtitle font-outfit">Get In Touch</span>
+          <h2 class="section-title font-outfit">Request a Proposal</h2>
+          <p class="contact-description">
+            Partner with Spoorty Bio Energy. Whether you are looking to build a dedicated agricultural biogas plant, procure Bio-CNG fuel, or invest in clean infrastructure, our team is ready to assist.
+          </p>
+          
+          <div class="contact-cards-stack">
+            <div class="contact-info-item glass-card hover-tilt">
+              <div class="icon-wrap bg-green">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="info-content">
+                <span class="lbl font-outfit">Email Support</span>
+                <span class="val font-outfit">solutions@spoortybioenergy.com</span>
+              </div>
+            </div>
+            <div class="contact-info-item glass-card hover-tilt">
+              <div class="icon-wrap bg-blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="info-content">
+                <span class="lbl font-outfit">Phone Inquiries</span>
+                <span class="val font-outfit">+1 (800) BIO-POWER</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-right-form">
+          <div class="glass-card form-panel panel-3d">
+            <form id="proposal-form" class="inquiry-form">
+              <div class="form-row-2">
+                <div class="input-group">
+                  <input type="text" id="full-name" required placeholder=" ">
+                  <label for="full-name">Your Name</label>
+                </div>
+                <div class="input-group">
+                  <input type="email" id="email-addr" required placeholder=" ">
+                  <label for="email-addr">Email Address</label>
+                </div>
+              </div>
+              <div class="input-group">
+                <input type="text" id="company-name" required placeholder=" ">
+                <label for="company-name">Company / Organization</label>
+              </div>
+              <div class="input-group">
+                <select id="interest-type" required>
+                  <option value="" disabled selected hidden></option>
+                  <option value="epc">Biogas Plant Engineering (EPC)</option>
+                  <option value="cng">Bio-CNG / Methane Supply</option>
+                  <option value="feedstock">Feedstock Supply Partnership</option>
+                  <option value="consult">Feasibility & Carbon Consultation</option>
+                </select>
+                <label for="interest-type" class="select-label-floating">Interest Type</label>
+              </div>
+              <div class="input-group">
+                <textarea id="project-desc" rows="4" required placeholder=" "></textarea>
+                <label for="project-desc">Project Details / Requirements</label>
+              </div>
+              <button type="submit" class="btn btn-primary form-submit-btn magnetic">
+                <span>Send Inquiry</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+            </form>
+            
+            <!-- Success Overlay -->
+            <div class="form-success-overlay" id="form-success-overlay">
+              <div class="success-box text-center">
+                <div class="success-checkmark-container">
+                  <svg class="success-svg" viewBox="0 0 52 52">
+                    <circle class="success-circle" cx="26" cy="26" r="25" fill="none"/>
+                    <path class="success-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                  </svg>
+                </div>
+                <h3 class="font-outfit">Inquiry Received</h3>
+                <p>Thank you for reaching out. An environmental engineering specialist will contact you shortly.</p>
+                <button type="button" class="btn btn-secondary magnetic" id="reset-form-btn">Submit Another Request</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- DARK GLASS FOOTER -->
+  <footer class="footer-sec glass-panel">
+    <div class="container footer-grid">
+      <div class="footer-branding">
+        <a href="#" class="logo-link mb-3">
+          <svg class="logo-svg" viewBox="0 0 24 24" fill="none" style="filter: drop-shadow(0 0 6px rgba(56,182,107,0.4));">
+            <circle cx="12" cy="12" r="10" stroke="#38B66B" stroke-width="2.5"/>
+            <path d="M12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z" fill="#38B66B"/>
+          </svg>
+          <span class="logo-text font-outfit text-white">Spoorty <span class="logo-sub text-green">Bio Energy</span></span>
+        </a>
+        <p class="branding-text">
+          Decarbonizing industrial energy footprints through circular biotech engineering ecosystems. Powering a sustainable tomorrow.
+        </p>
+        <div class="footer-social-row">
+          <a href="#" class="social-btn magnetic" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="#" class="social-btn magnetic" aria-label="Twitter">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-links-column">
+        <h4 class="font-outfit text-white">Solutions</h4>
+        <ul class="footer-links-list">
+          <li><a href="#solutions" class="magnetic">Biogas Engineering</a></li>
+          <li><a href="#solutions" class="magnetic">Bio-CNG Plants</a></li>
+          <li><a href="#solutions" class="magnetic">Waste Management</a></li>
+          <li><a href="#solutions" class="magnetic">SCADA Automation</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-column">
+        <h4 class="font-outfit text-white">Industries</h4>
+        <ul class="footer-links-list">
+          <li><a href="#industries" class="magnetic">Agriculture Sector</a></li>
+          <li><a href="#industries" class="magnetic">Food Processing</a></li>
+          <li><a href="#industries" class="magnetic">Dairy Operations</a></li>
+          <li><a href="#industries" class="magnetic">Municipalities</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-newsletter-column">
+        <h4 class="font-outfit text-white">Newsletter</h4>
+        <p class="newsletter-desc">Subscribe to stay updated with sustainable energy breakthroughs.</p>
+        <form class="newsletter-form" id="newsletter-form">
+          <div class="newsletter-input-group">
+            <input type="email" required placeholder="Enter your email address" id="newsletter-email">
+            <button type="submit" class="newsletter-submit-btn magnetic" aria-label="Subscribe">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="container footer-bottom-row">
+      <p class="copyright">&copy; <span id="footer-year">2026</span> Spoorty Bio Energy Inc. All rights reserved.</p>
+      <div class="footer-legal-links">
+        <a href="#" class="magnetic">Privacy Policy</a>
+        <a href="#" class="magnetic">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lenis or native smooth scroll polyfill & GSAP & Core JS logic -->
+  <script type="module" src="main.js"></script>
+</body>
+</html>
