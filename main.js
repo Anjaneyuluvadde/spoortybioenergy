@@ -362,7 +362,7 @@ class BioEnergyVisualizer {
 }
 
 // Initialize particles
-new BioEnergyVisualizer();
+// new BioEnergyVisualizer();
 
 
 /* =========================================================================

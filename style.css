@@ -168,7 +168,7 @@ a {
   border-radius: 50%;
   filter: blur(140px); /* Pushed blur to 140px for smoother gradient */
   opacity: 0.08; /* Drastically reduced mesh opacity for minimal distraction */
-  animation: meshFloat 28s infinite alternate ease-in-out;
+  /* animation: meshFloat 28s infinite alternate ease-in-out; */
 }
 
 .mesh-1 {
@@ -185,7 +185,7 @@ a {
   background: radial-gradient(circle, var(--color-glass-ice) 0%, rgba(208, 231, 230, 0) 70%);
   bottom: -15%;
   right: -5%;
-  animation-delay: -5s;
+  /* animation-delay: -5s; */
 }
 
 .mesh-3 {
@@ -194,7 +194,7 @@ a {
   background: radial-gradient(circle, var(--color-eco-green) 0%, rgba(56, 182, 107, 0) 70%);
   top: 35%;
   right: 15%;
-  animation-delay: -9s;
+  /* animation-delay: -9s; */
 }
 
 .mesh-4 {
@@ -203,7 +203,7 @@ a {
   background: radial-gradient(circle, var(--color-secondary-blue) 0%, rgba(66, 116, 217, 0) 70%);
   bottom: 25%;
   left: 20%;
-  animation-delay: -14s;
+  /* animation-delay: -14s; */
   opacity: 0.05; /* Reduced Blue blob */
 }
 
@@ -218,6 +218,7 @@ a {
 
 /* Interactive Chemical Molecular Canvas */
 #bio-canvas {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
